@@ -1,1 +1,94 @@
+/* ---------- General ---------- */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 3800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Fonts ---------- */
+
+@font-face {
+  font-family: 'hel-obli';
+  src: url('./fonts/Helvetica-Oblique.ttf');
+}
+
+@font-face {
+  font-family: 'hel-reg';
+  src: url('./fonts/Helvetica.ttf');
+}
+
+/* ---------- CSS Variables ---------- */
+
+:root {
+  --big-font: 1.4rem;
+  --reg-font: 1rem;
+
+  --gap: 2.3rem;
+}
+
+/* ---------- Home ---------- */
+
+.about-container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  height: 100vh;
+  font-family: 'hel-reg';
+  color: #fff;
+  background-color: #000;
+  padding: var(--gap);
+}
+
+.intro {
+  font-size: var(--big-font);
+  line-height: 1.9rem;
+  margin-bottom: var(--gap);
+  margin-top: -.2rem;
+}
+
+.intro-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.intro-action:hover {
+  opacity: .5;
+}
+
+.intro-arrow-container {
+  width: 1.4rem;
+  margin-top: .1rem;
+}
+
+.intro-action p,
+.bottom p {
+  font-size: var(--reg-font);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
