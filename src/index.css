@@ -1,3 +1,25 @@
+/* ---------- Fonts ---------- */
+
+@font-face {
+  font-family: 'hel-obli';
+  src: url('./fonts/Helvetica-Oblique.ttf');
+}
+
+@font-face {
+  font-family: 'hel-reg';
+  src: url('./fonts/Helvetica.ttf');
+}
+
+/* ---------- CSS Variables ---------- */
+
+:root {
+  --big-font: 1.4rem;
+  --reg-font: 1rem;
+  --small-font: .8rem;
+
+  --gap: 2.3rem;
+}
+
 /* ---------- General ---------- */
 
 * {
@@ -23,7 +45,6 @@ img {
 
 .arrow-container {
   width: 1.4rem;
-  margin-top: .1rem;
   cursor: pointer;
   transition: .3s;
 }
@@ -36,26 +57,14 @@ img {
   transform: rotate(180deg);
 }
 
-/* ---------- Fonts ---------- */
-
-@font-face {
-  font-family: 'hel-obli';
-  src: url('./fonts/Helvetica-Oblique.ttf');
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@font-face {
-  font-family: 'hel-reg';
-  src: url('./fonts/Helvetica.ttf');
-}
-
-/* ---------- CSS Variables ---------- */
-
-:root {
-  --big-font: 1.4rem;
-  --reg-font: 1rem;
-  --small-font: .8rem;
-
-  --gap: 2.3rem;
+.bottom p {
+  font-size: var(--reg-font);
 }
 
 /* ---------- Home ---------- */
@@ -73,6 +82,8 @@ img {
   background-color: #000;
   padding: var(--gap);
 }
+
+/* ---------- Intro ---------- */
 
 .intro {
   font-size: var(--big-font);
@@ -99,15 +110,14 @@ img {
   cursor: pointer;
 }
 
-.intro-action p,
-.bottom p {
+.intro-action p {
   font-size: var(--reg-font);
 }
 
-.bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* ---------- Exp And Skills ---------- */
+
+.exp-container {
+  margin-bottom: calc(var(--gap) * 2);
 }
 
 .header {
@@ -145,9 +155,6 @@ img {
 }
 
 .job-title {
-  margin-bottom: .5rem;
+  margin-bottom: .4rem;
 }
 
-.skills-container {
-  padding-top: var(--gap);
-}
