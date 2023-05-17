@@ -21,6 +21,21 @@ img {
   margin-right: auto;
 }
 
+.arrow-container {
+  width: 1.4rem;
+  margin-top: .1rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.arrow-container:hover {
+  opacity: .5;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
 /* ---------- Fonts ---------- */
 
 @font-face {
@@ -38,6 +53,7 @@ img {
 :root {
   --big-font: 1.4rem;
   --reg-font: 1rem;
+  --small-font: .8rem;
 
   --gap: 2.3rem;
 }
@@ -50,7 +66,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 40%;
+  width: 39%;
   height: 100vh;
   font-family: 'hel-reg';
   color: #fff;
@@ -80,6 +96,7 @@ img {
 .intro-arrow-container {
   width: 1.4rem;
   margin-top: .1rem;
+  cursor: pointer;
 }
 
 .intro-action p,
@@ -91,4 +108,46 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header {
+  font-size: var(--big-font);
+  margin-bottom: var(--gap);
+}
+
+.job {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap);
+  margin-bottom: var(--gap);
+}
+
+.title-details-container {
+  width: 16rem;
+}
+
+.company-name,
+.skill {
+  font-size: var(--reg-font);
+  margin-bottom: .2rem;
+}
+
+.time-period,
+.job-title,
+.job-details {
+  font-size: var(--small-font);
+  line-height: 1rem;
+}
+
+.time-period,
+.job-title {
+  font-family: 'hel-obli';
+}
+
+.job-title {
+  margin-bottom: .5rem;
+}
+
+.skills-container {
+  padding-top: var(--gap);
 }
