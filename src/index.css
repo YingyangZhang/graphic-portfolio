@@ -28,6 +28,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
@@ -35,6 +39,11 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .container {
@@ -115,6 +124,7 @@ img {
   gap: 1rem;
   cursor: pointer;
   transition: .3s;
+  margin-bottom: .2rem;
 }
 
 .intro-action:hover {
@@ -129,6 +139,10 @@ img {
 
 .intro-action p {
   font-size: var(--reg-font);
+}
+
+.to-projects-action {
+  display: none;
 }
 
 /* ---------- Exp And Skills ---------- */
@@ -232,6 +246,7 @@ img {
   .cover {
     flex-direction: column;
     row-gap: calc(var(--gap) / 2);
+    margin-bottom: calc(var(--gap) * 2);
   }
 
   .cover-info-container,
@@ -239,17 +254,6 @@ img {
     width: 100%;
   }
 }
-
-/* @media screen and (max-height: 896px) {
-  .skills {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .cs-skills-container{
-    text-align: right;
-  }
-} */
 
 @media screen and (max-height: 856px) {
   .exp-container {
@@ -263,6 +267,17 @@ img {
     position: absolute;
     bottom: 3.4rem;
     right: 1.1rem;
+  }
+}
+
+@media screen and (max-height: 755px) {
+  .skills {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cs-skills-container{
+    text-align: right;
   }
 }
 
@@ -284,6 +299,10 @@ img {
     width: 100%;
   }
 
+  .to-projects-action {
+    display: block;
+  }
+
   .rotate-90 {
     transform: none;
     position: static;
@@ -294,6 +313,6 @@ img {
 
 @media screen and (max-width: 500px) {
   :root {
-    --gap: 1.9rem;
+    --gap: 1.7rem;
   }
 }

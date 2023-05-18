@@ -22,6 +22,10 @@ export default function Intro({handleToggle}) {
                             <img src="https://my-grapic-design-portfolio.s3.amazonaws.com/arrow.png" alt="arrow"/>
                         </div>
                     </div>
+
+                    <a href="#destination" className="to-projects-action">
+                        <p>Portfolio</p>
+                    </a>
                 </div>
 
                 <div className="bottom">
