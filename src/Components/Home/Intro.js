@@ -26,7 +26,7 @@ export default function Intro({handleToggle}) {
 
                 <div className="bottom">
                     <p>yingyang.zhang95@gmail.com</p>
-                    <p>2023©</p>
+                    <p className="rotate-90">2023©</p>
                 </div>
         </>
     )

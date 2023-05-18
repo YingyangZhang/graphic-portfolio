@@ -12,13 +12,13 @@ export default function ExpAndSkills({handleToggle}) {
                     <div className="jobs-container">
                         <div className="job">
                             <div className="name-time-container">
-                                <p className="company-name">Accelerate 360</p>
+                                <p className="title-reg">Accelerate 360</p>
 
-                                <p className="time-period">2021 - 2022</p>
+                                <p className="year-obli">2021 - 2022</p>
                             </div>
 
                             <div className="title-details-container">
-                                <p className="job-title">Graphic Designer</p>
+                                <p className="title-obli">Graphic Designer</p>
 
                                 <p className="job-details">
                                     Digital Ads, Web Banners, Animations, Posters,
@@ -29,13 +29,13 @@ export default function ExpAndSkills({handleToggle}) {
 
                         <div className="job">
                             <div className="name-time-container">
-                                <p className="company-name">SocietyRow</p>
+                                <p className="title-reg">SocietyRow</p>
 
-                                <p className="time-period">2020 - 2021</p>
+                                <p className="year-obli">2020 - 2021</p>
                             </div>
 
                             <div className="title-details-container">
-                                <p className="job-title">Graphic Designer</p>
+                                <p className="title-obli">Graphic Designer</p>
 
                                 <p className="job-details">
                                     Social Media Posts, Instagram Stories, Layouts,
@@ -46,13 +46,13 @@ export default function ExpAndSkills({handleToggle}) {
 
                         <div className="job">
                             <div className="name-time-container">
-                                <p className="company-name">L.K. Creative Inc.</p>
+                                <p className="title-reg">L.K. Creative Inc.</p>
 
-                                <p className="time-period">2017 - 2018</p>
+                                <p className="year-obli">2017 - 2018</p>
                             </div>
 
                             <div className="title-details-container">
-                                <p className="job-title">Graphic Design Intern</p>
+                                <p className="title-obli">Graphic Design Intern</p>
 
                                 <p className="job-details">
                                     Store Signs, Billboards, Stickers, Logos, Icons,
@@ -68,15 +68,23 @@ export default function ExpAndSkills({handleToggle}) {
                         Skills
                     </p>
                     
-                    <p className="skill">Photoshop</p>
-                    <p className="skill">Illustrator</p>
-                    <p className="skill">InDesign</p>
-                    <p className="skill">After Effect</p>
-                    <p className="skill">HTML</p>
-                    <p className="skill">CSS</p>
-                    <p className="skill">JavaScript</p>
-                    <p className="skill">ReactJS</p>
-                    <p className="skill">Ruby on Rails</p>
+                    <div className="skills">
+                        <div className="design-skills-container">
+                            <p className="skill">Photoshop</p>
+                            <p className="skill">Illustrator</p>
+                            <p className="skill">InDesign</p>
+                            <p className="skill">After Effect</p>
+                            <p className="skill">LightRoom</p>
+                        </div>
+
+                        <div className="cs-skills-container">
+                            <p className="skill">HTML</p>
+                            <p className="skill">CSS</p>
+                            <p className="skill">JavaScript</p>
+                            <p className="skill">ReactJS</p>
+                            <p className="skill">Ruby on Rails</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
