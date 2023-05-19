@@ -12,7 +12,7 @@ export default function Home() {
 
     return (
         <div className="home container">
-            <div className="about-container">
+            <div className="left-container">
                 {isToggled ? <ExpAndSkills handleToggle={handleToggle} /> : <Intro handleToggle={handleToggle} />}
             </div>
 
