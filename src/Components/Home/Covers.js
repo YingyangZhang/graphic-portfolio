@@ -3,7 +3,7 @@ import { Projects } from "../Projects";
 
 export default function Covers() {
     return (
-        <div className="covers" id="destination">
+        <div className="right-container" id="destination">
             {Projects.map(project => {
                 return (
                     <div className="cover" key={project.id}>
