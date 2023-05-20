@@ -76,6 +76,13 @@ a {
   font-size: var(--reg-font);
 }
 
+.text-big {
+  font-size: var(--big-font);
+  line-height: 1.9rem;
+  margin-bottom: var(--gap);
+  margin-top: -.2rem;
+}
+
 .title-reg {
   font-family: 'hel-reg';
   font-size: var(--reg-font);
@@ -90,7 +97,7 @@ a {
 
 /* ---------- Home ---------- */
 
-.home {
+.main {
   display: flex;
 }
 
@@ -110,13 +117,6 @@ a {
 }
 
 /* ---------- Intro ---------- */
-
-.intro {
-  font-size: var(--big-font);
-  line-height: 1.9rem;
-  margin-bottom: var(--gap);
-  margin-top: -.2rem;
-}
 
 .intro-action {
   display: inline-flex;
@@ -218,6 +218,32 @@ a {
   width: 60%;
 }
 
+/* ---------- Inspection ---------- */
+
+.project-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inspection-img-container {
+  margin-bottom: var(--gap);
+}
+
+.to-home-action {
+  font-family: 'hel-reg';
+  cursor: pointer;
+  transition: .3s;
+}
+
+.to-home-action:hover {
+  opacity: .5;
+}
+
+.bottom-images {
+  display: none;
+  margin-bottom: var(--gap);
+}
+
 /* ---------- Media Query ---------- */
 
 @media screen and (max-width: 1050px) {
@@ -290,7 +316,7 @@ a {
 }
 
 @media screen and (max-width: 725px) {
-  .home {
+  .main {
     flex-direction: column;
   }
 
@@ -316,6 +342,25 @@ a {
     position: static;
     bottom: auto;
     right: auto;
+  }
+
+  .left-container-inspection {
+    height: 65vh;
+  }
+
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .bottom-description {
+    display: none;
+  }
+
+  .bottom-images {
+    display: flex;
   }
 }
 

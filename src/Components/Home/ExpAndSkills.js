@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ExpAndSkills({handleToggle}) {
     return (
-        <>
+        <div className="left-container">
             <div className="exp-skills-container">
                 <div className="exp-container">
                     <p className="header">
@@ -95,6 +95,6 @@ export default function ExpAndSkills({handleToggle}) {
 
                 <p>2023©</p>
             </div>
-        </>
+        </div>
     )
 }
