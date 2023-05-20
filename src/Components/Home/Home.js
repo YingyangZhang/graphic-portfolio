@@ -11,11 +11,9 @@ export default function Home() {
     }
 
     return (
-        <div className="home container">
-            <div className="left-container">
-                {isToggled ? <ExpAndSkills handleToggle={handleToggle} /> : <Intro handleToggle={handleToggle} />}
-            </div>
-
+        <div className="main container">
+            {isToggled ? <ExpAndSkills handleToggle={handleToggle} /> : <Intro handleToggle={handleToggle} />}
+    
             <Covers />
         </div>
     )

@@ -1,12 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Projects } from "../Projects";
 
 export default function Covers() {
+    const navigate = useNavigate();
+
     return (
         <div className="right-container" id="destination">
             {Projects.map(project => {
                 return (
-                    <div className="cover" key={project.id}>
+                    <div className="cover" key={project.id} onClick={() => navigate(`/${project.id}`)}>
                         
                         <div className="cover-info-container">
                             <div className="cover-info">

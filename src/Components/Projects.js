@@ -4,6 +4,7 @@ export const Projects = [
         name: 'Serenity Bay Park',
         type: 'Web Design',
         year: 2023,
+        description: 'Yingyang Zhang is a graphic designer with 2 years of experience in designing engaging visual content for both digital and print media, skilled in using a variety of design tools and software. Expertise includes branding, logo design, print and web design, and multimedia presentations.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/serenity+bay+park/landing+page+gif.gif',
             all_images: [
@@ -22,6 +23,7 @@ export const Projects = [
         name: 'Ella\'s Restaurant',
         type: 'Branding Design',
         year: 2023,
+        description: 'Yingyang Zhang is a graphic designer with 2 years of experience in designing engaging visual content for both digital and print media, skilled in using a variety of design tools and software. Expertise includes branding, logo design, print and web design, and multimedia presentations.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella\'s/ella\'s+gif.gif',
             all_images: [
@@ -40,6 +42,7 @@ export const Projects = [
         name: 'Artists Space',
         type: 'Branding Design',
         year: 2023,
+        description: 'Yingyang Zhang is a graphic designer with 2 years of experience in designing engaging visual content for both digital and print media, skilled in using a variety of design tools and software. Expertise includes branding, logo design, print and web design, and multimedia presentations.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
             all_images: [
@@ -59,6 +62,7 @@ export const Projects = [
         name: 'Haus Furniture',
         type: 'Web Design',
         year: 2023,
+        description: 'Yingyang Zhang is a graphic designer with 2 years of experience in designing engaging visual content for both digital and print media, skilled in using a variety of design tools and software. Expertise includes branding, logo design, print and web design, and multimedia presentations.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus/cover.jpg',
             all_images: [
@@ -78,6 +82,7 @@ export const Projects = [
         name: 'Flower Posters',
         type: 'Poster Design',
         year: 2022,
+        description: 'Yingyang Zhang is a graphic designer with 2 years of experience in designing engaging visual content for both digital and print media, skilled in using a variety of design tools and software. Expertise includes branding, logo design, print and web design, and multimedia presentations.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/flower+posters/flower+poster+mock+up+1.jpg',
             all_images: [
@@ -94,6 +99,7 @@ export const Projects = [
         name: 'Goldfish Gallery',
         type: 'Poster Design',
         year: 2023,
+        description: 'Yingyang Zhang is a graphic designer with 2 years of experience in designing engaging visual content for both digital and print media, skilled in using a variety of design tools and software. Expertise includes branding, logo design, print and web design, and multimedia presentations.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/goldfish+gallery/goldfish+gallery+gif.gif',
             all_images: [
@@ -108,6 +114,7 @@ export const Projects = [
         name: '523 Gallery',
         type: 'Poster Design',
         year: 2022,
+        description: 'Yingyang Zhang is a graphic designer with 2 years of experience in designing engaging visual content for both digital and print media, skilled in using a variety of design tools and software. Expertise includes branding, logo design, print and web design, and multimedia presentations.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/523+gallery/523+gallery+mock+up.jpg',
             all_images: [
@@ -122,6 +129,7 @@ export const Projects = [
         name: 'Coffee Up',
         type: 'Packaging Design',
         year: 2021,
+        description: 'Yingyang Zhang is a graphic designer with 2 years of experience in designing engaging visual content for both digital and print media, skilled in using a variety of design tools and software. Expertise includes branding, logo design, print and web design, and multimedia presentations.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/coffee+up/coffee+up+boxes.jpg',
             all_images: [
