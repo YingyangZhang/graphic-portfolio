@@ -1,10 +1,15 @@
 import React from "react";
+import { motion} from "framer-motion";
 
 export default function About({handleToggle}) {
     return (
         <div className="left-container">
             <div className="about-container">
-                <div className="exp-container">
+                <motion.div 
+                className="exp-container"
+                initial={{ opacity: 0, y: 4 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ ease: "easeOut", duration: .5 }}>
                     <p className="header">
                         Experience
                     </p>
@@ -61,9 +66,13 @@ export default function About({handleToggle}) {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className="skills-container">
+                <motion.div 
+                className="skills-container"
+                initial={{ opacity: 0, y: 4 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ ease: "easeOut", duration: .5, delay: .3 }}>
                     <p className="header">
                         Skills
                     </p>
@@ -85,7 +94,7 @@ export default function About({handleToggle}) {
                             <p className="skill">Ruby on Rails</p>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             </div>
 
             <div className="bottom">

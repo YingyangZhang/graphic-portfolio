@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Intro from "./Intro";
 import About from "./About";
 import Covers from "./Covers";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Home() {
     const [isToggled, setIsToggled] = useState(false);
@@ -12,8 +13,10 @@ export default function Home() {
 
     return (
         <div className="main-container container">
-            {isToggled ? <About handleToggle={handleToggle} /> : <Intro handleToggle={handleToggle} />}
-    
+            <AnimatePresence>
+                {isToggled ? <About handleToggle={handleToggle} /> : <Intro handleToggle={handleToggle} />}
+            </AnimatePresence>
+
             <Covers />
         </div>
     )

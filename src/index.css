@@ -13,7 +13,7 @@
 /* ---------- CSS Variables ---------- */
 
 :root {
-  --big-font: 1.35rem;
+  --big-font: 1.37rem;
   --reg-font: 1rem;
   --small-font: .8rem;
 
@@ -342,7 +342,7 @@ a {
   }
 
   .left-container-for-inspection {
-    height: 70vh;
+    height: 68vh;
   }
 
   .description-container {

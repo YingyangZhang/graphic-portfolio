@@ -1,10 +1,15 @@
 import React from "react";
+import { motion} from "framer-motion";
 
 export default function Intro({handleToggle}) {
     return (
         <div className="left-container">
             <div className="intro-container">
-                <p className="text-big">
+                <motion.p 
+                className="text-big"
+                initial={{ opacity: 0, y: 4 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ ease: "easeOut", duration: .5 }}>
                     Yingyang Zhang is a graphic designer with 2 years of
                     experience in designing engaging visual content for
                     both digital and print media, skilled in using a variety
@@ -13,7 +18,7 @@ export default function Intro({handleToggle}) {
                     multimedia presentations. Additionally, also have a
                     thorough understanding of HTML, CSS,
                     JavaScript-based programming, and Ruby on Rails.
-                </p>
+                </motion.p>
                 
                 <div className="intro-action" onClick={handleToggle}>
                     <p>Experience & Skills</p>
@@ -29,7 +34,12 @@ export default function Intro({handleToggle}) {
             </div>
 
             <div className="bottom bottom-for-intro">
-                <p>yingyang.zhang95@gmail.com</p>
+                <motion.p
+                initial={{ opacity: 0, y: 4 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ ease: "easeOut", duration: .5, delay: .3 }}>
+                    yingyang.zhang95@gmail.com
+                </motion.p>
                 <p>2023©</p>
             </div>
         </div>
