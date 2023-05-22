@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function Images({Projects, project, handleLeft, handleRight}) {
+export default function Gallery({Projects, project, handleLeft, handleRight}) {
     const navigate = useNavigate();
 
     return (
@@ -14,7 +14,7 @@ export default function Images({Projects, project, handleLeft, handleRight}) {
                 )
             })}
 
-            <div className="bottom bottom-images">
+            <div className="bottom bottom-for-gallery">
                 {project.id === 1 ? 
                 null : 
                 <div className="arrow-container rotate" onClick={handleLeft}>

@@ -9,7 +9,7 @@ export default function Covers() {
         <div className="right-container" id="destination">
             {Projects.map(project => {
                 return (
-                    <div className="cover" key={project.id} onClick={() => navigate(`/${project.id}`)}>
+                    <div className="cover-container" key={project.id} onClick={() => navigate(`/${project.id}`)}>
                         
                         <div className="cover-info-container">
                             <div className="cover-info">

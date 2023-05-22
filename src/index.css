@@ -13,7 +13,7 @@
 /* ---------- CSS Variables ---------- */
 
 :root {
-  --big-font: 1.4rem;
+  --big-font: 1.35rem;
   --reg-font: 1rem;
   --small-font: .8rem;
 
@@ -50,6 +50,10 @@ a {
   max-width: 3800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.main-container {
+  display: flex;
 }
 
 .arrow-container {
@@ -97,10 +101,6 @@ a {
 
 /* ---------- Home ---------- */
 
-.main {
-  display: flex;
-}
-
 .left-container {
   position: sticky;
   top: 0;
@@ -141,7 +141,7 @@ a {
   font-size: var(--reg-font);
 }
 
-.to-projects-action {
+.to-portfolio-action {
   display: none;
 }
 
@@ -151,7 +151,7 @@ a {
   margin-bottom: calc(var(--gap) * 2);
 }
 
-.exp-skills-container {
+.about-container {
   margin-top: -.08rem;
 }
 
@@ -194,7 +194,7 @@ a {
   padding-bottom: 0;
 }
 
-.cover {
+.cover-container {
   display: flex;
   column-gap: var(--gap);
   justify-content: space-between;
@@ -204,7 +204,7 @@ a {
   transition: .3s;
 }
 
-.cover:hover {
+.cover-container:hover {
   opacity: .5;
 }
 
@@ -239,9 +239,9 @@ a {
   opacity: .5;
 }
 
-.bottom-images {
+.bottom-for-gallery {
   display: none;
-  margin-bottom: var(--gap);
+  margin-bottom: calc(var(--gap) * 2);
 }
 
 /* ---------- Media Query ---------- */
@@ -269,7 +269,7 @@ a {
     text-align: right;
   }
 
-  .cover {
+  .cover-container {
     flex-direction: column;
     row-gap: calc(var(--gap) / 2);
     margin-bottom: calc(var(--gap) * 2);
@@ -296,11 +296,10 @@ a {
 }
 
 @media screen and (max-width: 830px) {
-  .rotate-90 {
-    transform: rotate(90deg);
-    position: absolute;
-    bottom: 3.4rem;
-    right: 1.1rem;
+  .bottom-for-intro {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    row-gap: .2rem;
   }
 }
 
@@ -316,7 +315,7 @@ a {
 }
 
 @media screen and (max-width: 725px) {
-  .main {
+  .main-container {
     flex-direction: column;
   }
 
@@ -333,19 +332,17 @@ a {
     width: 100%;
   }
 
-  .to-projects-action {
+  .to-portfolio-action {
     display: block;
   }
 
-  .rotate-90 {
-    transform: none;
-    position: static;
-    bottom: auto;
-    right: auto;
+  .bottom-for-intro {
+    flex-direction: row;
+    align-items: center;
   }
 
-  .left-container-inspection {
-    height: 65vh;
+  .left-container-for-inspection {
+    height: 70vh;
   }
 
   .description-container {
@@ -355,11 +352,11 @@ a {
     height: 100%;
   }
 
-  .bottom-description {
+  .bottom-for-description {
     display: none;
   }
 
-  .bottom-images {
+  .bottom-for-gallery {
     display: flex;
   }
 }

@@ -5,7 +5,7 @@ export default function Description({Projects, project, handleLeft, handleRight}
     const navigate = useNavigate();
 
     return (
-        <div className="left-container left-container-inspection">
+        <div className="left-container left-container-for-inspection">
             <div className="description-container">
                 <p className="text-big">{project.description}</p>
 
@@ -19,7 +19,7 @@ export default function Description({Projects, project, handleLeft, handleRight}
                 </div>
             </div>
 
-            <div className="bottom bottom-description">
+            <div className="bottom bottom-for-description">
                 {project.id === 1 ? 
                 null : 
                 <div className="arrow-container rotate" onClick={handleLeft}>

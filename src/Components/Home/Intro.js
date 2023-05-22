@@ -23,14 +23,14 @@ export default function Intro({handleToggle}) {
                     </div>
                 </div>
 
-                <a href="#destination" className="to-projects-action">
+                <a href="#destination" className="to-portfolio-action">
                     <p>Portfolio</p>
                 </a>
             </div>
 
-            <div className="bottom">
+            <div className="bottom bottom-for-intro">
                 <p>yingyang.zhang95@gmail.com</p>
-                <p className="rotate-90">2023©</p>
+                <p>2023©</p>
             </div>
         </div>
     )

@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Projects } from "../Projects";
 import Description from "./Description";
-import Images from "./Images";
+import Gallery from "./Gallery";
 
 export default function Inspection() {
     const { id } = useParams();
@@ -18,10 +18,10 @@ export default function Inspection() {
     }
 
     return (
-        <div className="main container">
+        <div className="main-container container">
             <Description Projects={Projects} project={project} handleLeft={handleLeft} handleRight={handleRight} />
 
-            <Images Projects={Projects} project={project} handleLeft={handleLeft} handleRight={handleRight} />
+            <Gallery Projects={Projects} project={project} handleLeft={handleLeft} handleRight={handleRight} />
         </div>
     )
 }

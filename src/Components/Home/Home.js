@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Intro from "./Intro";
-import ExpAndSkills from "./ExpAndSkills";
+import About from "./About";
 import Covers from "./Covers";
 
 export default function Home() {
@@ -11,8 +11,8 @@ export default function Home() {
     }
 
     return (
-        <div className="main container">
-            {isToggled ? <ExpAndSkills handleToggle={handleToggle} /> : <Intro handleToggle={handleToggle} />}
+        <div className="main-container container">
+            {isToggled ? <About handleToggle={handleToggle} /> : <Intro handleToggle={handleToggle} />}
     
             <Covers />
         </div>

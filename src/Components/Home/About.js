@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function ExpAndSkills({handleToggle}) {
+export default function About({handleToggle}) {
     return (
         <div className="left-container">
-            <div className="exp-skills-container">
+            <div className="about-container">
                 <div className="exp-container">
                     <p className="header">
                         Experience
