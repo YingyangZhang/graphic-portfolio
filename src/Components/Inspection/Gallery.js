@@ -6,7 +6,7 @@ export default function Gallery({Projects, project, handleLeft, handleRight}) {
     const navigate = useNavigate();
 
     return (
-        <div className="right-container">
+        <div className="right-container" key={project.id}>
             {project.images.all_images.map((image, index) => {
                 return (
                     <motion.div 
@@ -14,6 +14,7 @@ export default function Gallery({Projects, project, handleLeft, handleRight}) {
                     key={index}
                     initial={{ opacity: 0, x: 10 }}
                     whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
                     transition={{ ease: "easeOut", duration: .5 }}>
                         <img src={image} alt="image" />
                     </motion.div>
