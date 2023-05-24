@@ -10,7 +10,7 @@ export default function Intro({handleToggle}) {
                 initial={{ opacity: 0, y: 4 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ ease: "easeOut", duration: .5 }}>
-                    Yingyang Zhang is a graphic designer with 2 years of
+                    Yingyang Zhang is a &nbsp;<span>Graphic Designer</span>&nbsp; with 2 years of
                     experience in designing engaging visual content for
                     both digital and print media, skilled in using a variety
                     of design tools and software. Expertise includes

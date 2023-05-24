@@ -10,6 +10,11 @@
   src: url('./fonts/Helvetica.ttf');
 }
 
+@font-face {
+  font-family: 'mr-dafoe-reg';
+  src: url('./fonts/MRDAFOE-REGULAR.TTF');
+}
+
 /* ---------- CSS Variables ---------- */
 
 :root {
@@ -28,9 +33,9 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 a {
   text-decoration: none;
@@ -117,6 +122,11 @@ a {
 }
 
 /* ---------- Intro ---------- */
+
+.text-big span {
+  font-size: 1.6rem;
+  font-family: 'mr-dafoe-reg';
+}
 
 .intro-action {
   display: inline-flex;

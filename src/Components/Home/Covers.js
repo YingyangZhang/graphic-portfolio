@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Projects } from "../Projects";
+import { motion} from "framer-motion";
 
 export default function Covers() {
     const navigate = useNavigate();
@@ -20,9 +21,13 @@ export default function Covers() {
                             <p className="year-obli">{project.year}</p>
                         </div>
 
-                        <div className="cover-img-container">
+                        <motion.div 
+                        className="cover-img-container"
+                        initial={{ opacity: 0, x: 10 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ ease: "easeOut", duration: .5 }}>
                             <img src={project.images.cover_image} alt='cover' />
-                        </div>
+                        </motion.div>
                     </div>
                 )
             })}

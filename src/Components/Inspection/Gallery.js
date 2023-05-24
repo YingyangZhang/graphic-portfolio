@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { motion} from "framer-motion";
 
 export default function Gallery({Projects, project, handleLeft, handleRight}) {
     const navigate = useNavigate();
@@ -8,9 +9,14 @@ export default function Gallery({Projects, project, handleLeft, handleRight}) {
         <div className="right-container">
             {project.images.all_images.map((image, index) => {
                 return (
-                    <div className="inspection-img-container" key={index}>
+                    <motion.div 
+                    className="inspection-img-container" 
+                    key={index}
+                    initial={{ opacity: 0, x: 10 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ ease: "easeOut", duration: .5 }}>
                         <img src={image} alt="image" />
-                    </div>
+                    </motion.div>
                 )
             })}
 
