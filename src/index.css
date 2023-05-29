@@ -133,12 +133,7 @@ a {
   align-items: center;
   gap: 1rem;
   cursor: pointer;
-  transition: .3s;
   margin-bottom: .2rem;
-}
-
-.intro-action:hover {
-  opacity: .5;
 }
 
 .intro-arrow-container {

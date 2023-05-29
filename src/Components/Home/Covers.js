@@ -26,7 +26,7 @@ export default function Covers() {
                         initial={{ opacity: 0, x: 10 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        transition={{ ease: "easeOut", duration: .5 }}>
+                        transition={{ ease: "easeOut", duration: .5}}>
                             <img src={project.images.cover_image} alt='cover' />
                         </motion.div>
                     </div>

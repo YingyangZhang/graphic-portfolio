@@ -5,16 +5,20 @@ export default function About({handleToggle}) {
     return (
         <div className="left-container">
             <div className="about-container">
-                <motion.div 
-                className="exp-container"
-                initial={{ opacity: 0, y: 4 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ ease: "easeOut", duration: .5 }}>
-                    <p className="header">
+                <div className="exp-container">
+                    <motion.p 
+                    className="header"
+                    initial={{ opacity: 0, y: 4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ ease: "easeOut", duration: .5 }}>
                         Experience
-                    </p>
+                    </motion.p>
 
-                    <div className="jobs-container">
+                    <motion.div 
+                    className="jobs-container"
+                    initial={{ opacity: 0, y: 4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ ease: "easeOut", duration: .5, delay: .3 }}>
                         <div className="job">
                             <div className="name-time-container">
                                 <p className="title-reg">Accelerate 360</p>
@@ -65,19 +69,23 @@ export default function About({handleToggle}) {
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </motion.div>
+                    </motion.div>
+                </div>
 
-                <motion.div 
-                className="skills-container"
-                initial={{ opacity: 0, y: 4 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ ease: "easeOut", duration: .5, delay: .3 }}>
-                    <p className="header">
+                <div className="skills-container">
+                    <motion.p 
+                    className="header"
+                    initial={{ opacity: 0, y: 4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ ease: "easeOut", duration: .5, delay: .6 }}>
                         Skills
-                    </p>
+                    </motion.p>
                     
-                    <div className="skills">
+                    <motion.div 
+                    className="skills"
+                    initial={{ opacity: 0, y: 4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ ease: "easeOut", duration: .5, delay: .9 }}>
                         <div className="design-skills-container">
                             <p className="skill">Photoshop</p>
                             <p className="skill">Illustrator</p>
@@ -93,8 +101,8 @@ export default function About({handleToggle}) {
                             <p className="skill">ReactJS</p>
                             <p className="skill">Ruby on Rails</p>
                         </div>
-                    </div>
-                </motion.div>
+                    </motion.div>
+                </div>
             </div>
 
             <div className="bottom">

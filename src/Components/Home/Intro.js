@@ -20,13 +20,18 @@ export default function Intro({handleToggle}) {
                     JavaScript-based programming, and Ruby on Rails.
                 </motion.p>
                 
-                <div className="intro-action" onClick={handleToggle}>
-                    <p>Experience & Skills</p>
+                <motion.div initial={{ opacity: 0, y: 4 }}
+                animate={{ opacity: 1, y: 0, transition: {duration: .5, delay: .3}}}>
+                    <motion.div className="intro-action" onClick={handleToggle}
                     
-                    <div className="intro-arrow-container">
-                        <img src="https://my-grapic-design-portfolio.s3.amazonaws.com/arrow.png" alt="arrow"/>
-                    </div>
-                </div>
+                    whileHover={{ opacity: 0.5, transition: { duration: .3, delay: 0 } }}>
+                        <p>Experience & Skills</p>
+                        
+                        <div className="intro-arrow-container">
+                            <img src="https://my-grapic-design-portfolio.s3.amazonaws.com/arrow.png" alt="arrow"/>
+                        </div>
+                    </motion.div>
+                </motion.div>
 
                 <a href="#destination" className="to-portfolio-action">
                     <p>Portfolio</p>
@@ -34,12 +39,7 @@ export default function Intro({handleToggle}) {
             </div>
 
             <div className="bottom bottom-for-intro">
-                <motion.p
-                initial={{ opacity: 0, y: 4 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ ease: "easeOut", duration: .5, delay: .3 }}>
-                    yingyang.zhang95@gmail.com
-                </motion.p>
+                <p>yingyang.zhang95@gmail.com</p>
                 <p>2023©</p>
             </div>
         </div>
