@@ -20,26 +20,6 @@ export const Projects = [
 
     {
         id: 2,
-        name: 'Artists Space',
-        type: 'Branding Design',
-        year: 2023,
-        description: 'Artists Space is a museum that focuses on showcasing art by young artists. The logo\'s versatile line represents space and creativity, which can be transformed while maintaining its recognizability. The minimalist design, using white and dark gray, puts the focus on the artworks.',
-        images: {
-            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
-            all_images: [
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+logo+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+business+card.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+ticket+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+postcard+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+pins+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+posters.jpg'
-            ]
-        }
-    },
-
-    {
-        id: 3,
         name: 'Ella Food',
         type: 'Branding Design',
         year: 2023,
@@ -55,6 +35,26 @@ export const Projects = [
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+menu.png',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+t-shirt.png',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+signage.png'
+            ]
+        }
+    },
+
+    {
+        id: 3,
+        name: 'Artists Space',
+        type: 'Branding Design',
+        year: 2023,
+        description: 'Artists Space is a museum that focuses on showcasing art by young artists. The logo\'s versatile line represents space and creativity, which can be transformed while maintaining its recognizability. The minimalist design, using white and dark gray, puts the focus on the artworks.',
+        images: {
+            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
+            all_images: [
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+logo+gif.gif',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+business+card.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+ticket+gif.gif',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+postcard+gif.gif',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+pins+gif.gif',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+posters.jpg'
             ]
         }
     },
