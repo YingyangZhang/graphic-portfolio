@@ -40,19 +40,21 @@ export const Projects = [
 
     {
         id: 3,
-        name: 'Ella\'s Restaurant',
+        name: 'Ella Food',
         type: 'Branding Design',
         year: 2023,
         description: 'Ella\'s, a small fast food restaurant with a rich history, aims to attract younger customers. The logo has a cute and retro cartoon character , creating a memorable visual. The design is simple and clean with the iconic logo used consistently throughout various elements. Colorful stickers represent different food items.',
         images: {
-            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella\'s/ella\'s+gif.gif',
+            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+cover.gif',
             all_images: [
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella\'s/ella\'s+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella\'s/ella\'s+menu.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella\'s/ella\'s+pizza.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella\'s/ella\'s+advertisment.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella\'s/ella\'s+burger.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella\'s/ella\'s+beverage.jpg'
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+cover.gif',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+businese+card.png',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+advertiment.png',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+billboard.png',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+stack.png',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+menu.png',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+t-shirt.png',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+signage.png'
             ]
         }
     },
@@ -99,7 +101,7 @@ export const Projects = [
         name: 'Goldfish Gallery',
         type: 'Poster Design',
         year: 2023,
-        description: 'This poster was created for an exhibition showcasing modern goldfish paintings.The white background emphasizes the unique beauty of the central goldfish. The informal layout reflects the free-spirited nature of the fish. Simple, modern typography complements the minimalist design.',
+        description: 'The poster was created for an exhibition showcasing modern goldfish paintings.The white background emphasizes the unique beauty of the central goldfish. The informal layout reflects the free-spirited nature of the fish. Simple, modern typography complements the minimalist design.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/goldfish+gallery/goldfish+gallery+gif.gif',
             all_images: [
@@ -114,7 +116,7 @@ export const Projects = [
         name: '523 Gallery',
         type: 'Poster Design',
         year: 2022,
-        description: 'This poster was created for a sculpture exhibition, with the main focus on a centered sculpture. The layout features a free arrangement of text, adding an artistic touch to the design. The collision of colors in the background enhances its visual appeal.',
+        description: 'The poster was created for a sculpture exhibition, with the main focus on a centered sculpture. The layout features a free arrangement of text, adding an artistic touch to the design. The collision of colors in the background enhances its visual appeal.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/523+gallery/523+gallery+mock+up.jpg',
             all_images: [
@@ -137,6 +139,40 @@ export const Projects = [
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/coffee+up/coffee+up+boxes.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/coffee+up/coffee+up+capsules.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/coffee+up/coffee+up+dies.jpg'
+            ]
+        }
+    },
+
+    {
+        id: 9,
+        name: 'Tone Jam Music Festival',
+        type: 'Poster Design',
+        year: 2021,
+        description: 'The poster features a captivating photograph of the lead singer in a hot pink color, representsing excitement and passion. Motion effects and textures add drama and draw attention to the image. The festival\'s name takes priority with a larger font size, followed by the date and location for easy readability.',
+        images: {
+            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day+display.jpg',
+            all_images: [
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day+display.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day.jpg'
+            ]
+        }
+    },
+
+    {
+        id: 10,
+        name: 'Logo Showcase',
+        type: 'Logo Design',
+        year: '2020 ~ 23',
+        description: 'The logos were created between 2020 and 2023, featuring a range of styles including emblem, wordmark, monogram, abstract, and mascot. The designer demonstrates capability in crafting various logo types.',
+        images: {
+            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-01.jpg',
+            all_images: [
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-01.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-02.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-04.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-05.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-06.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-07.jpg'
             ]
         }
     }
