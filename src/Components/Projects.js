@@ -23,7 +23,7 @@ export const Projects = [
         name: 'Ella Food',
         type: 'Branding Design',
         year: 2023,
-        description: 'Ella\'s, a small fast food restaurant with a rich history, aims to attract younger customers. The logo has a cute and retro cartoon character , creating a memorable visual. The design is simple and clean with the iconic logo used consistently throughout various elements. Colorful stickers represent different food items.',
+        description: 'Branding design for the local restaurant "Ella" features a bold handwritten logo shaped like dipping sauce, leaving a lasting impression. The overall design is simple and well-organized, complementing the restaurant\'s ambiance. Ads showcase close-up images of delectable food, tantalizing the audience\'s taste buds.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+cover.gif',
             all_images: [
