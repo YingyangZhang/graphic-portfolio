@@ -25,7 +25,7 @@ export const Projects = [
         year: 2023,
         description: 'Branding design for the local restaurant "Ella" features a bold handwritten logo shaped like dipping sauce, leaving a lasting impression. The overall design is simple and well-organized, complementing the restaurant\'s ambiance. Ads showcase close-up images of delectable food, tantalizing the audience\'s taste buds.',
         images: {
-            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+cover.gif',
+            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+billboard.png',
             all_images: [
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+cover.gif',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+businese+card.png',
