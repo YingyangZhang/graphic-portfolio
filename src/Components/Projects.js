@@ -64,20 +64,20 @@ export const Projects = [
         name: 'Haus Furniture',
         type: 'Branding Design',
         year: 2023,
-        description: 'Haus Furniture is a minimalist website selling designer furniture. The black and white color scheme emphasizes quality and elegance. Captivating close-up images on the homepage showcase attention to detail. With a clean layout and user-friendly interface, customers can easily browse and purchase items.',
+        description: 'Haus Furniture specializes in offering designer furniture. The brand\'s aesthetic is underscored by a black and white color scheme, symbolizing quality and elegance. A vibrant touch of orange signifies creativity. The sleek layout ensures easy exploration of information and products.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/businese-card.jpg',
             all_images: [
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/logo.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/businese-card.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/invoice.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/home.gif',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/collection.gif',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/piece.gif',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/archive.gif',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/billboard.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/truck.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/t-shirt.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/invoice.jpg'
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/t-shirt.jpg'
             ]
         }
     },
