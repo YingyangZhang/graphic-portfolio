@@ -20,12 +20,34 @@ export const Projects = [
 
     {
         id: 2,
+        name: 'Haus Furniture',
+        type: 'Branding Design',
+        year: 2023,
+        description: 'Haus Furniture specializes in offering designer furniture. The brand\'s aesthetic is underscored by a black and white color scheme, symbolizing quality and elegance. A vibrant touch of orange signifies creativity. The sleek layout ensures easy exploration of information and products.',
+        images: {
+            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-4.jpg',
+            all_images: [
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/logo.gif',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/businese-card.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/paper-pencil.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/book.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/webs.gif',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-1.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-2.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-3.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-4.jpg'
+            ]
+        }
+    },
+
+    {
+        id: 3,
         name: 'Ella Food',
         type: 'Branding Design',
         year: 2023,
         description: 'Branding design for the local restaurant "Ella" features a bold handwritten logo shaped like dipping sauce, leaving a lasting impression. The overall design is simple and well-organized, complementing the restaurant\'s ambiance. Ads showcase close-up images of delectable food, tantalizing the audience\'s taste buds.',
         images: {
-            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+billboard.png',
+            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+businese+card.png',
             all_images: [
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+cover.gif',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+businese+card.png',
@@ -40,7 +62,7 @@ export const Projects = [
     },
 
     {
-        id: 3,
+        id: 4,
         name: 'Artists Space',
         type: 'Branding Design',
         year: 2023,
@@ -55,29 +77,6 @@ export const Projects = [
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+postcard+gif.gif',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+pins+gif.gif',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+posters.jpg'
-            ]
-        }
-    },
-
-    {
-        id: 4,
-        name: 'Haus Furniture',
-        type: 'Branding Design',
-        year: 2023,
-        description: 'Haus Furniture specializes in offering designer furniture. The brand\'s aesthetic is underscored by a black and white color scheme, symbolizing quality and elegance. A vibrant touch of orange signifies creativity. The sleek layout ensures easy exploration of information and products.',
-        images: {
-            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/businese-card.jpg',
-            all_images: [
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/logo.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/businese-card.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/invoice.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/home.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/collection.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/piece.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/archive.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/billboard.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/truck.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/t-shirt.jpg'
             ]
         }
     },
