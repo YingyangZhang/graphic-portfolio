@@ -83,6 +83,21 @@ export const Projects = [
 
     {
         id: 5,
+        name: 'Works From Previous Jobs',
+        type: 'Graphic Design',
+        year: '2021 ~ 23',
+        description: 'A showcase highlighting some of the projects and designs from my previous roles.',
+        images: {
+            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/previous+works/showcase-1.jpg',
+            all_images: [
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/previous+works/showcase-2.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/previous+works/showcase-1.jpg'
+            ]
+        }
+    },
+
+    {
+        id: 6,
         name: 'Flower Posters',
         type: 'Poster Design',
         year: 2022,
@@ -99,7 +114,7 @@ export const Projects = [
     },
 
     {
-        id: 6,
+        id: 7,
         name: 'Goldfish Gallery',
         type: 'Poster Design',
         year: 2023,
@@ -114,7 +129,7 @@ export const Projects = [
     },
 
     {
-        id: 7,
+        id: 8,
         name: '523 Gallery',
         type: 'Poster Design',
         year: 2022,
@@ -129,7 +144,7 @@ export const Projects = [
     },
 
     {
-        id: 8,
+        id: 9,
         name: 'Coffee Up',
         type: 'Packaging Design',
         year: 2021,
@@ -145,20 +160,20 @@ export const Projects = [
         }
     },
 
-    {
-        id: 9,
-        name: 'Tone Jam Music Festival',
-        type: 'Poster Design',
-        year: 2021,
-        description: 'The poster features a captivating photograph of the lead singer in a hot pink color, representsing excitement and passion. Motion effects and textures add drama and draw attention to the image. The festival\'s name takes priority with a larger font size, followed by the date and location for easy readability.',
-        images: {
-            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day+display.jpg',
-            all_images: [
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day+display.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day.jpg'
-            ]
-        }
-    },
+    // {
+    //     id: 9,
+    //     name: 'Tone Jam Music Festival',
+    //     type: 'Poster Design',
+    //     year: 2021,
+    //     description: 'The poster features a captivating photograph of the lead singer in a hot pink color, representsing excitement and passion. Motion effects and textures add drama and draw attention to the image. The festival\'s name takes priority with a larger font size, followed by the date and location for easy readability.',
+    //     images: {
+    //         cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day+display.jpg',
+    //         all_images: [
+    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day+display.jpg',
+    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day.jpg'
+    //         ]
+    //     }
+    // },
 
     {
         id: 10,
@@ -173,6 +188,7 @@ export const Projects = [
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-02.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-04.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-05.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-09.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-06.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/logo+showcase/showcase-07.jpg'
             ]
