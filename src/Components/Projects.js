@@ -83,13 +83,15 @@ export const Projects = [
 
     {
         id: 5,
-        name: 'Works From Previous Jobs',
+        name: 'From Works',
         type: 'Graphic Design',
         year: '2021 ~ 23',
-        description: 'A showcase highlighting some of the projects and designs from my previous roles.',
+        description: 'A showcase highlighting some of the projects and designs from my current role and previous roles.',
         images: {
-            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/previous+works/showcase-1.jpg',
+            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/previous+works/infographic+showcase.jpg',
             all_images: [
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/previous+works/amiva+showcase.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/previous+works/infographic+showcase.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/previous+works/showcase-2.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/previous+works/showcase-1.jpg'
             ]
