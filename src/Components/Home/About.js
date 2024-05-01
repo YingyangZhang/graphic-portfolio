@@ -99,7 +99,6 @@ export default function About({handleToggle}) {
                             <p className="skill">CSS</p>
                             <p className="skill">JavaScript</p>
                             <p className="skill">ReactJS</p>
-                            <p className="skill">Ruby on Rails</p>
                         </div>
                     </motion.div>
                 </div>

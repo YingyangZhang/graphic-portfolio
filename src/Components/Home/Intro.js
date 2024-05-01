@@ -10,14 +10,7 @@ export default function Intro({handleToggle}) {
                 initial={{ opacity: 0, y: 4 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ ease: "easeOut", duration: .5 }}>
-                    Yingyang Zhang is a &nbsp;<span>Graphic Designer</span>&nbsp; with 2 years of
-                    experience in designing engaging visual content for
-                    both digital and print media, skilled in using a variety
-                    of design tools and software. Expertise includes
-                    branding, logo design, print and web design, and
-                    multimedia presentations. Additionally, also have a
-                    thorough understanding of HTML, CSS,
-                    JavaScript-based programming, and Ruby on Rails.
+                    Yingyang Zhang is a &nbsp;<span>Graphic Designer</span>&nbsp; with over three years of experience as a graphic designer, specialization lies in crafting engaging and detail-oriented visual content for digital and print media, utilizing a variety of Adobe tools, including Photoshop, Illustrator, InDesign, After Effects, and so on. Expertise spans branding, advertisement, social media posts, layout design, animations, presentations, newsletter, web design and more. Proficient in collaborating with different departments or working independently.
                 </motion.p>
                 
                 <motion.div initial={{ opacity: 0, y: 4 }}
