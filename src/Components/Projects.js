@@ -9,6 +9,7 @@ export const Projects = [
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/serenity+bay+park/landing+page+gif.gif',
             all_images: [
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/serenity+bay+park/logo.jpg',
+                'https://my-grapic-design-portfolio.s3.amazonaws.com/serenity+bay+park/business+mock+up.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/serenity+bay+park/landing+page+gif.gif',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/serenity+bay+park/home+page+mock+up.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/serenity+bay+park/walk+tour+mock+up.jpg',
