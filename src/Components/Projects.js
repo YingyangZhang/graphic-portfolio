@@ -43,6 +43,28 @@ export const Projects = [
 
     {
         id: 3,
+        name: 'Chromatic Echoes',
+        type: 'Identity Design',
+        year: 2025,
+        description: 'The bold use of optical effects, gradients, and structured grids reflects the gallery\'s commitment to avant-garde visual experiences. With a refined typographic approach and a minimalist layout, the identity balances modernity with artistic expression, making Chromatic Echoes a beacon for contemporary and experimental art.',
+        images: {
+            cover_image: 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/working_id_display.png',
+            all_images: [
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/logo.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/poster_display-1.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/poster_display-2.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/poster_display-3.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/thank_you_card_display-2.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/thank_you_card_display-1.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/tickets_display.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/labels_display.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/working_id_display.png'
+            ]
+        }
+    },
+
+    {
+        id: 4,
         name: 'Ella Food',
         type: 'Branding Design',
         year: 2023,
@@ -62,25 +84,25 @@ export const Projects = [
         }
     },
 
-    {
-        id: 4,
-        name: 'Artists Space',
-        type: 'Branding Design',
-        year: 2023,
-        description: 'Artists Space is a museum that focuses on showcasing art by young artists. The logo\'s versatile line represents space and creativity, which can be transformed while maintaining its recognizability. The minimalist design, using white and dark gray, puts the focus on the artworks.',
-        images: {
-            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
-            all_images: [
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+logo+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+business+card.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+ticket+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+postcard+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+pins+gif.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+posters.jpg'
-            ]
-        }
-    },
+    // {
+    //     id: 4,
+    //     name: 'Artists Space',
+    //     type: 'Branding Design',
+    //     year: 2023,
+    //     description: 'Artists Space is a museum that focuses on showcasing art by young artists. The logo\'s versatile line represents space and creativity, which can be transformed while maintaining its recognizability. The minimalist design, using white and dark gray, puts the focus on the artworks.',
+    //     images: {
+    //         cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
+    //         all_images: [
+    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+logo+gif.gif',
+    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+business+card.jpg',
+    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
+    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+ticket+gif.gif',
+    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+postcard+gif.gif',
+    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+pins+gif.gif',
+    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+posters.jpg'
+    //         ]
+    //     }
+    // },
 
     {
         id: 5,
