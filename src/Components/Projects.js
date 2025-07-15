@@ -41,8 +41,35 @@ export const Projects = [
         }
     },
 
-    {
+        {
         id: 3,
+        name: 'Oscillo Films',
+        type: 'Identity Design',
+        year: 2024,
+        description: 'Oscillo Films is a creative production studio with a bold, forward-driven identity. Its striking blue palette reflects energy and innovation, while the logo—thoughtfully constructed using a precise grid system and shaped like both a screen and the initial ‘O’—evokes clarity, precision, and visual storytelling.',
+        images: {
+            cover_image: 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/billboard.jpg',
+            all_images: [
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/cover.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/logo+animation.gif',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/logo.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/business_cards.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/letter.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/indoor_LED.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/eyes.gif',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/billboard.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/signage.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/posters.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/pin.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/cap.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/home.gif',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/webs.jpg'
+            ]
+        }
+    },
+
+    {
+        id: 4,
         name: 'Chromatic Echoes',
         type: 'Identity Design',
         year: 2025,
@@ -64,7 +91,7 @@ export const Projects = [
     },
 
     {
-        id: 4,
+        id: 5,
         name: 'Ella Food',
         type: 'Branding Design',
         year: 2023,
@@ -105,7 +132,7 @@ export const Projects = [
     // },
 
     {
-        id: 5,
+        id: 6,
         name: 'From Works',
         type: 'Graphic Design',
         year: '2021 ~ 23',
@@ -122,7 +149,7 @@ export const Projects = [
     },
 
     {
-        id: 6,
+        id: 7,
         name: 'Flower Posters',
         type: 'Poster Design',
         year: 2022,
@@ -139,7 +166,7 @@ export const Projects = [
     },
 
     {
-        id: 7,
+        id: 8,
         name: 'Goldfish Gallery',
         type: 'Poster Design',
         year: 2023,
@@ -154,7 +181,7 @@ export const Projects = [
     },
 
     {
-        id: 8,
+        id: 9,
         name: '523 Gallery',
         type: 'Poster Design',
         year: 2022,
@@ -169,7 +196,7 @@ export const Projects = [
     },
 
     {
-        id: 9,
+        id: 10,
         name: 'Coffee Up',
         type: 'Packaging Design',
         year: 2021,
@@ -201,7 +228,7 @@ export const Projects = [
     // },
 
     {
-        id: 10,
+        id: 11,
         name: 'Logo Showcase',
         type: 'Logo Design',
         year: '2020 ~ 23',
