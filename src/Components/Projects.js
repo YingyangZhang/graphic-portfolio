@@ -4,7 +4,7 @@ export const Projects = [
         name: 'Serenity Bay Park',
         type: 'Web Design',
         year: 2023,
-        description: 'The design for Serenity Park is elegant and visually appealing, reflecting the park\'s atmosphere. A white and green color scheme creates a refreshing feel, while a clean layout enhances the overall aesthetics. Carefully edited images maintain consistency throughout the website. ',
+        description: 'Serenity Bay Park’s branding blends tradition with a relaxed spirit, capturing the park’s atmosphere. A stacked serif logo and the phrase “where • nature • heals,” tucked between words like a whisper, set a calm tone. Deep green, white, and warm yellow define the palette, while golden-hour photography with soft grain evokes slow, restorative moments. Clean layouts and clear typography keep the look elegant across print and digital.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/serenity+bay+park/landing+page+gif.gif',
             all_images: [
@@ -24,7 +24,7 @@ export const Projects = [
         name: 'Haus Furniture',
         type: 'Branding Design',
         year: 2023,
-        description: 'Haus Furniture specializes in offering designer furniture. The brand\'s aesthetic is underscored by a black and white color scheme, symbolizing quality and elegance. A vibrant touch of orange signifies creativity. The sleek layout ensures easy exploration of information and products.',
+        description: 'HAUS specializes in designer furniture from around the world. Its branding is product-first and architectural, with a stylized table silhouette as the signature mark. Black and white with an ochre accent, Swiss-leaning type, and generous white space keep the furniture front and center. Tactile stationery with a blind-embossed mark, museum-paced web design, and distilled advertising work seamlessly across print and out-of-home.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-4.jpg',
             all_images: [
@@ -46,7 +46,7 @@ export const Projects = [
         name: 'Oscillo Films',
         type: 'Identity Design',
         year: 2024,
-        description: 'Oscillo Films is a creative production studio with a bold, forward-driven identity. Its striking blue palette reflects energy and innovation, while the logo—thoughtfully constructed using a precise grid system and shaped like both a screen and the initial ‘O’—evokes clarity, precision, and visual storytelling.',
+        description: 'Oscillo Films is a company dedicated to storytelling. Its branding centers on an “O-screen” emblem—an elongated, chamfered O inspired by the first letter and widescreen frames. The mark works like a lens: it brackets subjects and anchors layouts, creating a clear cinematic cue at every touchpoint. The identity scales from LED walls to embossed stationery and stitched apparel. The result is a simple, flexible system that keeps the work—and the story—front and center.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/billboard.jpg',
             all_images: [
@@ -73,7 +73,7 @@ export const Projects = [
         name: 'Chromatic Echoes',
         type: 'Identity Design',
         year: 2025,
-        description: 'The bold use of optical effects, gradients, and structured grids reflects the gallery\'s commitment to avant-garde visual experiences. With a refined typographic approach and a minimalist layout, the identity balances modernity with artistic expression, making Chromatic Echoes a beacon for contemporary and experimental art.',
+        description: 'Chromatic Echoes is a brand design for an art gallery committed to avant-garde visual experiences. It’s an optical system built on rhythm, repetition, and color. Three simple elements—stripes, checks, and soft vertical gradients—stack into “echo bands” that seem to vibrate as you move, creating motion without animation. The result is a bold, flexible identity that feels alive before you even enter the gallery.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/chromatic_echoes/working_id_display.png',
             all_images: [
@@ -95,7 +95,7 @@ export const Projects = [
         name: 'Ella Food',
         type: 'Branding Design',
         year: 2023,
-        description: 'Branding design for the local restaurant "Ella" features a bold handwritten logo shaped like dipping sauce, leaving a lasting impression. The overall design is simple and well-organized, complementing the restaurant\'s ambiance. Ads showcase close-up images of delectable food, tantalizing the audience\'s taste buds.',
+        description: 'Ella’s identity design centers on a bold, handwritten logo—a dipping-sauce swirl that feels casual and appetizing. A simple system—clear grid, monochrome type, generous white space—matches the restaurant’s intimate feel. Close-up food photography leads, while the wordmark anchors menus, signage, cards, and staff tees. It comes together as a refined, welcoming street-to-table brand—unmistakably Ella.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+businese+card.png',
             all_images: [
@@ -111,28 +111,26 @@ export const Projects = [
         }
     },
 
-    // {
-    //     id: 4,
-    //     name: 'Artists Space',
-    //     type: 'Branding Design',
-    //     year: 2023,
-    //     description: 'Artists Space is a museum that focuses on showcasing art by young artists. The logo\'s versatile line represents space and creativity, which can be transformed while maintaining its recognizability. The minimalist design, using white and dark gray, puts the focus on the artworks.',
-    //     images: {
-    //         cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
-    //         all_images: [
-    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+logo+gif.gif',
-    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+business+card.jpg',
-    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+brochure+gif.gif',
-    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+ticket+gif.gif',
-    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+postcard+gif.gif',
-    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+pins+gif.gif',
-    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/artists+space/artists+space+posters.jpg'
-    //         ]
-    //     }
-    // },
-
     {
         id: 6,
+        name: 'The Visitors',
+        type: 'Character Design',
+        year: 2025,
+        description: 'The Visitors is a character design featuring a soft, mysteriously cute alien from Planet Zeltron. A rounded, two-lobed body, tiny dot eyes, and a glossy gradient shell make it feel squishy and friendly. Color gradients give each visitor a distinct personality while the simple shapes keep the family consistent—gentle, curious, and instantly recognizable.',
+        images: {
+            cover_image: 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/cover.jpg',
+            all_images: [
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/cover.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/introduction.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/four+view+drawings.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/poster+1.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/poster+2+%26+3.jpg'
+            ]
+        }
+    },
+
+    {
+        id: 7,
         name: 'From Works',
         type: 'Graphic Design',
         year: '2021 ~ 23',
@@ -149,7 +147,7 @@ export const Projects = [
     },
 
     {
-        id: 7,
+        id: 8,
         name: 'Flower Posters',
         type: 'Poster Design',
         year: 2022,
@@ -166,7 +164,7 @@ export const Projects = [
     },
 
     {
-        id: 8,
+        id: 9,
         name: 'Goldfish Gallery',
         type: 'Poster Design',
         year: 2023,
@@ -181,7 +179,7 @@ export const Projects = [
     },
 
     {
-        id: 9,
+        id: 10,
         name: '523 Gallery',
         type: 'Poster Design',
         year: 2022,
@@ -196,7 +194,7 @@ export const Projects = [
     },
 
     {
-        id: 10,
+        id: 11,
         name: 'Coffee Up',
         type: 'Packaging Design',
         year: 2021,
@@ -212,23 +210,8 @@ export const Projects = [
         }
     },
 
-    // {
-    //     id: 9,
-    //     name: 'Tone Jam Music Festival',
-    //     type: 'Poster Design',
-    //     year: 2021,
-    //     description: 'The poster features a captivating photograph of the lead singer in a hot pink color, representsing excitement and passion. Motion effects and textures add drama and draw attention to the image. The festival\'s name takes priority with a larger font size, followed by the date and location for easy readability.',
-    //     images: {
-    //         cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day+display.jpg',
-    //         all_images: [
-    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day+display.jpg',
-    //             'https://my-grapic-design-portfolio.s3.amazonaws.com/tone+jam/pink+day.jpg'
-    //         ]
-    //     }
-    // },
-
     {
-        id: 11,
+        id: 12,
         name: 'Logo Showcase',
         type: 'Logo Design',
         year: '2020 ~ 23',

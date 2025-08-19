@@ -18,7 +18,7 @@
 /* ---------- CSS Variables ---------- */
 
 :root {
-  --big-font: 1.37rem;
+  --big-font: 1.2rem;
   --reg-font: 1rem;
   --small-font: .8rem;
 
@@ -87,7 +87,7 @@ a {
 
 .text-big {
   font-size: var(--big-font);
-  line-height: 1.9rem;
+  line-height: 1.5rem;
   margin-bottom: var(--gap);
   margin-top: -.2rem;
 }
