@@ -97,16 +97,18 @@ export const Projects = [
         year: 2023,
         description: 'Ella’s identity design centers on a bold, handwritten logo—a dipping-sauce swirl that feels casual and appetizing. A simple system—clear grid, monochrome type, generous white space—matches the restaurant’s intimate feel. Close-up food photography leads, while the wordmark anchors menus, signage, cards, and staff tees. It comes together as a refined, welcoming street-to-table brand—unmistakably Ella.',
         images: {
-            cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+businese+card.png',
+            cover_image: 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/t-shirt.png',
             all_images: [
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+cover.gif',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+businese+card.png',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+advertiment.png',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+billboard.png',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+stack.png',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+menu.png',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+t-shirt.png',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/ella/ella+signage.png'
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/logo.gif',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/signage.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/window.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/t-shirt.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/apron.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/slideshow.gif',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/businese+card.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/menu.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/stack.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/bag.png'
             ]
         }
     },
