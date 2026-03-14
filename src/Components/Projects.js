@@ -99,12 +99,10 @@ export const Projects = [
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/t-shirt.png',
             all_images: [
-                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/logo.gif',
-                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/signage.png',
-                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/window.png',
-                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/t-shirt.png',
-                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/apron.png',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/slideshow.gif',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/C1.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/t-shirt.png',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/logo.gif',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/businese+card.png',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/menu.png',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/stack.png',
