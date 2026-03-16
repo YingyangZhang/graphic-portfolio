@@ -95,7 +95,7 @@ export const Projects = [
         name: 'Ella Food',
         type: 'Branding Design',
         year: 2023,
-        description: 'Ella’s identity design centers on a bold, handwritten logo—a dipping-sauce swirl that feels casual and appetizing. A simple system—clear grid, monochrome type, generous white space—matches the restaurant’s intimate feel. Close-up food photography leads, while the wordmark anchors menus, signage, cards, and staff tees. It comes together as a refined, welcoming street-to-table brand—unmistakably Ella.',
+        description: 'Ella is a casual dining restaurant built around bold flavors and a lively street-to-table atmosphere. Its branding centers on a handwritten “ella” wordmark inspired by the swirl of dipping sauce, capturing the playful motion of sharing food. The mark scales and crops across signage, menus, packaging, and apparel, forming a bold and flexible visual system. The result is a vibrant, recognizable identity that feels unmistakably Ella.',
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/ella/t-shirt.png',
             all_images: [
