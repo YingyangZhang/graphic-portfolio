@@ -8,6 +8,7 @@ export default function Gallery({Projects, project, handleLeft, handleRight}) {
     return (
         <div className="right-container" key={project.id}>
             {project.images.all_images.map((image, index) => {
+                const isVideo = image.toLowerCase().includes(".mp4");
                 return (
                     <motion.div 
                     className="inspection-img-container" 
@@ -16,7 +17,12 @@ export default function Gallery({Projects, project, handleLeft, handleRight}) {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ ease: "easeOut", duration: .5 }}>
+                       {isVideo ? (
+                        <video src={image} autoPlay loop muted playsInline />
+                        ) : (
                         <img src={image} alt="image" />
+                        )}
+                                                
                     </motion.div>
                 )
             })}

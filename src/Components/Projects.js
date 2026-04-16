@@ -28,11 +28,11 @@ export const Projects = [
         images: {
             cover_image: 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-4.jpg',
             all_images: [
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/logo.gif',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/haus+furnitures/logo.mp4',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/businese-card.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/paper-pencil.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/book.jpg',
-                'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/webs.gif',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/haus+furnitures/webs.mp4',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-1.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-2.jpg',
                 'https://my-grapic-design-portfolio.s3.amazonaws.com/haus+furnitures/ad-display-3.jpg',
@@ -124,7 +124,8 @@ export const Projects = [
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/introduction.jpg',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/four+view+drawings.jpg',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/poster+1.jpg',
-                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/poster+2+%26+3.jpg'
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/poster+2+%26+3.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/the_visitors/hello+there.jpg',
             ]
         }
     },
