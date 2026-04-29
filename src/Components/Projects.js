@@ -55,6 +55,8 @@ export const Projects = [
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/logo.jpg',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/business_cards.jpg',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/letter.jpg',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/home.mp4',
+                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/webs.jpg',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/indoor_LED.jpg',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/eyes.gif',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/billboard.jpg',
@@ -62,8 +64,6 @@ export const Projects = [
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/posters.jpg',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/pin.jpg',
                 'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/cap.jpg',
-                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/home.gif',
-                'https://my-grapic-design-portfolio.s3.us-east-1.amazonaws.com/oscillo_films/webs.jpg'
             ]
         }
     },
